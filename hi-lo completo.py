@@ -71,7 +71,7 @@ carta_actual = random.choice(mazo)  # Seleccionar carta al azar
 # Cargar imagen de la carta actual
 carta_actual_img = pygame.image.load(r'./cartas/' + carta_actual.valor + carta_actual.palo[0] + '.png')
 
-carta_actual_img = pygame.transform.scale(carta_actual_img, (150, 240))  # Escalado de la carta
+carta_actual_img = pygame.transform.scale(carta_actual_img, (150, 240))  # Escalado de la cartas
 
 # Remover la carta del mazo:
 mazo.remove(carta_actual)
