@@ -3,7 +3,7 @@ import random
 
 pygame.init()
 
-# COLORESS
+# COLORES USADOS
 GRIS = (110, 110, 110)
 BLANCO = (255, 255, 255)
 VERDE = (0, 255, 0)
